@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="ad">
+        <item>Pera</item>
+        <item>Mazá</item>
+        <item>Plátano</item>
+    </string-array>
+
+</resources>

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.bankalex.app">
+    <uses-permission android:name="android.permission.CALL_PHONE"/>
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher_ba"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_ba_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name="com.bankalex.app.Opening">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity>
+        <activity android:name="com.bankalex.app.BancaEmpregado"/>
+        <activity android:name="com.bankalex.app.BancaCliente"/>
+        <activity android:name="com.bankalex.app.Perfil"/>
+        <activity android:name="com.bankalex.app.VerMovementos"/>
+        <activity android:name="com.bankalex.app.VerEmpregadosInf"/>
+        <activity android:name="com.bankalex.app.VerHistSuperiores"/>
+        <activity android:name="com.bankalex.app.VerHistEmprego"/>
+        <activity android:name="com.bankalex.app.VerHistContas"/>
+        <activity android:name="com.bankalex.app.Sucursais"/>
+        <activity android:name="com.bankalex.app.VerContas"/>
+        <activity android:name="com.bankalex.app.VerClientes"/>
+        <activity android:name="com.bankalex.app.Preferencias"/>
+        <activity android:name="com.bankalex.app.AltaUsuario"/>
+        <activity android:name="com.bankalex.app.ModUsuario"/>
+        <activity android:name="com.bankalex.app.ModClave"/>
+        <activity android:name="com.bankalex.app.VerMovementosEmp"/>
+        <activity android:name="com.bankalex.app.VerContasCliente"/>
+    </application>
+</manifest>

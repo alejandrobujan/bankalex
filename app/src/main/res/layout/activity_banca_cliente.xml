@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".BancaCliente"
+    android:padding="16dp"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/tv_benvida"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Isto é Banca Cliente"
+        android:textSize="17sp"
+        android:textColor="#393939"
+        android:textStyle="bold"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Ver Perfil"
+        android:onClick="onVerPerfilClick"/>
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true">
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <TextView
+                android:id="@+id/tv_contas"
+                android:layout_marginTop="36dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="CONTAS"
+                android:textSize="15sp"
+                android:textColor="#393939"
+                android:textStyle="bold"/>
+            <ListView
+                android:id="@+id/lv_contas"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/btn_sucur"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Ver Sucursais"
+            android:layout_alignParentBottom="true"
+            android:onClick="onVerSucursaisClick"/>
+    </RelativeLayout>
+
+
+</LinearLayout>

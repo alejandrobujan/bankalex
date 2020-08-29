@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    tools:context=".BancaEmpregado">
+<!--androidx.core.widget.NestedScrollView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"-->
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/tv_benvida_emp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Isto é Banca Empregado"
+            android:textSize="17sp"
+            android:textColor="#393939"
+            android:textStyle="bold"/>
+
+        <Button
+            android:id="@+id/btn_perfil_emp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Ver Perfil"
+            android:onClick="onVerPerfilClick"/>
+        <Button
+            android:id="@+id/btn_n_cliente"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="ALTA USUARIOS"
+            android:layout_alignParentBottom="true"
+            android:onClick="onNovoUsuarioClick"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <Button
+            android:id="@+id/btn_ver_contas"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight=".5"
+            android:text="XESTIÓN DE CONTAS"
+            android:onClick="onVerContasClick"/>
+        <Button
+            android:id="@+id/btn_ver_clientes"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight=".5"
+            android:text="XESTIÓN DE CLIENTES"
+            android:onClick="onVerClientesClick"/>
+    </LinearLayout>
+        <!--TextView
+            android:id="@+id/tv_cli_asig"
+            android:layout_marginTop="26dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="CLIENTES ASIGNADOS"
+            android:textSize="15sp"
+            android:textColor="#393939"
+            android:textStyle="bold"/>
+
+        <ListView
+            android:id="@+id/lv_cli_asig"
+            android:layout_width="match_parent"
+            android:layout_height="150dp"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <Button
+                android:id="@+id/btn_cli_asig"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight=".5"
+                android:text="Ver todos"
+                android:onClick="onCliAsigClick"/>
+
+            <Button
+                android:id="@+id/btn_cli_asig_hist"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight=".5"
+                android:text="Histórico"
+                android:onClick="onCliAsigHistClick"/>
+
+        </LinearLayout-->
+
+
+
+        <LinearLayout
+            android:id="@+id/ll_emp_sub"
+            android:layout_marginTop="10dp"
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <TextView
+                android:id="@+id/tv_emp_inf"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="EMPREGADOS SUBORDINADOS"
+                android:textSize="15sp"
+                android:textColor="#393939"
+                android:textStyle="bold"/>
+
+            <ListView
+                android:id="@+id/lv_emp_inf"
+                android:layout_width="match_parent"
+                android:layout_height="150dp"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <Button
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight=".5"
+                    android:text="Ver todos"
+                    android:onClick="onEmpInfClick"/>
+
+                <Button
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight=".5"
+                    android:text="Histórico"
+                    android:onClick="onEmpInfHistClick"/>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+<!--/androidx.core.widget.NestedScrollView-->
+
+</LinearLayout>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceCategory
+        android:key="Exportar"
+        android:title="Exportación a PDF">
+        <EditTextPreference
+            android:defaultValue="pdf"
+            android:key="cartafol"
+            android:title="Cartafol por defecto" />
+    </PreferenceCategory>
+</PreferenceScreen>

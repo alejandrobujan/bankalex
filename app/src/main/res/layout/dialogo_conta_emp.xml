@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:text="Concepto"
+        android:gravity="left"
+        android:textColor="#000"/>
+
+    <EditText
+        android:id="@+id/et_concepto_emp"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:scrollHorizontally="true"
+        android:gravity="fill_horizontal"
+        android:autoText="false"
+        android:capitalize="none"
+        android:textColor="#000"/>
+
+    <TextView
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:text="Importe"
+        android:gravity="left"
+        android:textColor="#000"/>
+
+    <EditText
+        android:id="@+id/et_importe_novo_emp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="numberDecimal"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:scrollHorizontally="true"
+        android:gravity="fill_horizontal"
+        android:textColor="#000"/>
+
+
+</LinearLayout>

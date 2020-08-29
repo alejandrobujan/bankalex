@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android" >
+    <item
+        android:id="@+id/novoTit"
+        android:title="Engadir titular"
+        app:showAsAction="withText">
+    </item>
+    <item
+        android:id="@+id/borrarTit"
+        android:title="Eliminar titular"
+        app:showAsAction="withText">
+    </item>
+    <item
+        android:id="@+id/ingreso"
+        android:title="Ingreso"
+        app:showAsAction="withText">
+    </item>
+    <item
+        android:id="@+id/cargo"
+        android:title="Cargo"
+        app:showAsAction="withText">
+    </item>
+</menu>

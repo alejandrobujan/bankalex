@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="10dp">
+    <TextView
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:text="Clave actual"
+        android:gravity="left"
+        android:textColor="#000"/>
+
+    <EditText
+        android:id="@+id/et_clave_actual"
+        android:inputType="textPassword"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:scrollHorizontally="true"
+        android:gravity="fill_horizontal"
+        android:textColor="#000"/>
+        <TextView
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:text="Nova clave"
+            android:gravity="left"
+            android:textColor="#000"/>
+
+        <EditText
+            android:id="@+id/et_nova_clave"
+            android:inputType="textPassword"
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:scrollHorizontally="true"
+            android:gravity="fill_horizontal"
+            android:textColor="#000"/>
+
+        <TextView
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:text="Repite a nova clave"
+            android:gravity="left"
+            android:textColor="#000"/>
+
+        <EditText
+            android:id="@+id/et_repite_nova_clave"
+            android:inputType="textPassword"
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:scrollHorizontally="true"
+            android:gravity="fill_horizontal"
+            android:textColor="#000"/>
+        <Button
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Cambiar Clave"
+            android:onClick="onModClaveClick"/>
+</LinearLayout>
