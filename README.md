@@ -6,4 +6,4 @@ Este proxecto básase nunha solución de software para unha entidade bancaria fi
 
 + [Especificación de requerimentos](doc/1_requerimentos.md)
 + [Deseño conceptual](doc/2_deseno_conceptual.md)
-+ [Deseño lóxico](doc/3_deseno_loxico)
++ [Deseño lóxico](doc/3_deseno_loxico.md)
